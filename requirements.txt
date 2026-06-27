@@ -1,6 +1,9 @@
 # Core framework
 flask==3.0.3
+flask-sqlalchemy==3.1.1
 python-dotenv==1.0.1
+fpdf==1.7.2
+gunicorn==22.0.0
 
 # LangChain ecosystem
 langchain==0.2.14

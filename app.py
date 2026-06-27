@@ -289,4 +289,4 @@ def download_analysis_pdf():
 if __name__ == '__main__':
     with app.app_context():
         db.create_all()
-    app.run(debug=True, port=5001, use_reloader=False)
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5001)), debug=False, use_reloader=False)
