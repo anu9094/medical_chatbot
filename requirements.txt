@@ -19,8 +19,9 @@ chromadb==0.5.11
 ollama==0.1.9
 
 # Dependencies for Chroma / JSON schema
-pydantic==2.8.2
-pydantic-core==2.20.1
+numpy==1.26.4
+pydantic==2.12.3
+pydantic-core==2.47.0
 jsonschema==4.23.0
 referencing==0.35.1
 
